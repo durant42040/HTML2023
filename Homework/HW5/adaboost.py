@@ -80,5 +80,5 @@ for _ in range(1000):
 
 G = np.sign(G)
 
-Eout = np.mean(y != G)
-print(Eout)  # 0.0
+Ein = np.mean(y != G)
+print(Ein)  # 0.0
